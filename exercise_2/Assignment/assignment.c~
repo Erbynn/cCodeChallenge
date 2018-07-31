@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+  double a = 5.55, b = 3.87, plus, minus, mult, div;
+
+  plus = a + b;
+  minus = a - b;
+  mult = a * b;
+  div = a/b;
+
+  printf ("Results: plus: %d4.3f, minus: %d6.3f mult: %d3.2f, div: %d4.2f\n", plus, minus, mult, div);
+
+}
